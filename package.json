@@ -9,19 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@staticcms/core": "^3.3.10",
+    "@t3-oss/env-nextjs": "^0.7.1",
+    "decap-cms-app": "^3.0.10",
+    "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.4"
+    "styled-icons": "^10.47.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
     "postcss": "^8",
     "tailwindcss": "^3",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.4"
+    "typescript": "^5"
   }
 }
