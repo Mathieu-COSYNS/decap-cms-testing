@@ -18,13 +18,17 @@ export const BuildStatus = () => {
 
   const statusBgColors = {
     ready: "before:bg-green-400",
+    enqueued: "before:bg-gray-700",
     building: "before:bg-orange-400",
+    processing: "before:bg-orange-400",
     error: "before:bg-red-600",
   };
 
   const statusText = {
     ready: "Prêt!",
+    enqueued: "En Attente",
     building: "En construction...",
+    processing: "En construction...",
     error: "Erreur survenue",
   };
 
