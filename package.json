@@ -12,9 +12,11 @@
     "@staticcms/core": "^3.3.10",
     "@t3-oss/env-nextjs": "^0.7.1",
     "decap-cms-app": "^3.0.10",
+    "netlify": "^13.1.10",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-query": "^3.39.3",
     "styled-icons": "^10.47.0",
     "zod": "^3.22.4"
   },

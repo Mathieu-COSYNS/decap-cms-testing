@@ -1,9 +1,8 @@
-import { env } from "~/env";
 import { Config } from "./CMS";
 
 const config: Config = {
   backend: { name: "git-gateway", branch: "main" },
-  site_url: env.NEXT_PUBLIC_SITE_URL,
+  site_url: "http://example.com",
   logo_url: "/next.svg",
   // search: false,
   slug: {
